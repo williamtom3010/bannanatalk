@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bannana Talk</title> 
+    <title>banana speak</title> 
     <style>
         textarea{
             width: 90%;
@@ -13,21 +12,35 @@
             height: 1ovh;
             padding: 1rem;
         }
-       h1{
-        padding: 1rem;  
+       h1,div{
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;  
        }
-       button{           
-            margin: 2rem;
-            height: 1ovh;           
+       button{ 
+            margin-top: 0.5rem;         
+            margin-left: 5rem;
+            height: 3vh;                   
+        }
+        #output{
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            padding: 1rem;
+            margin: 1rem;
         }
        
     </style>       
 </head>
 
 <body>
-    <h1>Bannana Talk</h1>
-    <textarea id="txt-input" placeholder="put your sentence in here in english and i will convert it to banana"></textarea>
-    <button id="bdn-translate">Translate</button>
-    <script src="app.js" type="text/javascript"></script>    
+    <h1> Talk bananaaaa</h1>     
+    <textarea id="txt-input"
+        placeholder="put your sentence in English here and we will convert it to banana"></textarea>
+    <button id="btn-translate">Translate</button>
+
+    <div style="font-size: larger;"> Output will come here 👇</div>
+    <div id="output"></div>
+    <script src="app.js" type="text/javascript"></script> 
 </body>
 </html>

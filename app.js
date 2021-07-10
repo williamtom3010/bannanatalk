@@ -1,15 +1,25 @@
 // var username = prompt("hey gimme ur username");
 // alert("Your username"+username);
 
+
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
-console.log(txtInput);
+var outputDiv = document.querySelector("#output");
+// outputDiv.innerText = "Williamggggg Tom"
+// console.log(outputDiv);
+// console.log(txtInput);
+
 
 // console.log(btnTranslate);
 
+// function clickHandler() {
+//     console.log("clicked");
+//     console.log("input", txtInput.value);
+// };
+
+
 function clickHandler() {
-    console.log("clicked");
-    console.log("text", txtInput.value);
+    outputDiv.innerText ="The translated text is  "+txtInput.value;
 };
 
 btnTranslate.addEventListener("click", clickHandler)
