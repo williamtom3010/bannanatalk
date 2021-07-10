@@ -19,7 +19,7 @@ var outputDiv = document.querySelector("#output");
 
 
 function clickHandler() {
-    outputDiv.innerText ="The translated text is  "+txtInput.value;
+    outputDiv.innerText ="The translated text is  \n"+txtInput.value;
 };
 
 btnTranslate.addEventListener("click", clickHandler)
